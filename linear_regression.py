@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 df = pd.read_csv(r'C:\Users\ACER\Downloads\archive\StudentPerformanceFactors.csv')
 
 # 2. Separate input features (X) and target output (y)
-X = df[['Hours_Studied']] # কলামের সঠিক নাম Hours_Studied
+X = df[['Hours_Studied']] # Correct column name Hours_Studied
 y = df['Exam_Score']
 
 # 3. Split the data into training (80%) and testing (20%) sets
